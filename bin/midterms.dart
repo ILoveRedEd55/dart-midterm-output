@@ -76,7 +76,6 @@ String getComputerMove() {
 
 String whoWon(String playerMove, String computerMove) {
   if (playerMove == computerMove) {
-    //if the same, it's a tie
     yourRecordNew.updateDraws(1);
     return "It's Tie!";
   } else if (playerMove == "Bato" && computerMove == "Gunting") {
